@@ -81,5 +81,8 @@ int main(int argc, char** argv)
     in_file.close();
     out_file.close();
 
+    delete[] array1;
+    delete[] array2;
+
     return 0;
 }
