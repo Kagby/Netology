@@ -24,6 +24,7 @@
     <ProjectGuid>{a14436f6-bcfc-4fb4-940a-12a4b100e2ba}</ProjectGuid>
     <RootNamespace>My02Bills</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>02 Задача 2. Счета</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

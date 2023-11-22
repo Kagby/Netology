@@ -7,9 +7,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Netology", "Netology.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 (Visual Studio)", "cppm\01\01 (Visual Studio)\01 (Visual Studio).vcxproj", "{669C4A89-5567-4CDC-A986-4A8E8FC67B33}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 (Months)", "cppm\02\01 (Months)\01 (Months).vcxproj", "{F4B8A791-6929-49C7-99E0-E62CD83F01AE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 Задача 1. Месяцы", "cppm\02\01 (Months)\01 (Months).vcxproj", "{F4B8A791-6929-49C7-99E0-E62CD83F01AE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 (Bills)", "cppm\02\02 (Bills)\02 (Bills).vcxproj", "{A14436F6-BCFC-4FB4-940A-12A4B100E2BA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 Задача 2. Счета", "cppm\02\02 (Bills)\02 (Bills).vcxproj", "{A14436F6-BCFC-4FB4-940A-12A4B100E2BA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 Задача 3. Вывод структуры", "cppm\02\03 (Struct output)\03 (Struct output).vcxproj", "{6F90A456-DFA2-4499-88BC-637DFBF79DFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,14 @@ Global
 		{A14436F6-BCFC-4FB4-940A-12A4B100E2BA}.Release|x64.Build.0 = Release|x64
 		{A14436F6-BCFC-4FB4-940A-12A4B100E2BA}.Release|x86.ActiveCfg = Release|Win32
 		{A14436F6-BCFC-4FB4-940A-12A4B100E2BA}.Release|x86.Build.0 = Release|Win32
+		{6F90A456-DFA2-4499-88BC-637DFBF79DFB}.Debug|x64.ActiveCfg = Debug|x64
+		{6F90A456-DFA2-4499-88BC-637DFBF79DFB}.Debug|x64.Build.0 = Debug|x64
+		{6F90A456-DFA2-4499-88BC-637DFBF79DFB}.Debug|x86.ActiveCfg = Debug|Win32
+		{6F90A456-DFA2-4499-88BC-637DFBF79DFB}.Debug|x86.Build.0 = Debug|Win32
+		{6F90A456-DFA2-4499-88BC-637DFBF79DFB}.Release|x64.ActiveCfg = Release|x64
+		{6F90A456-DFA2-4499-88BC-637DFBF79DFB}.Release|x64.Build.0 = Release|x64
+		{6F90A456-DFA2-4499-88BC-637DFBF79DFB}.Release|x86.ActiveCfg = Release|Win32
+		{6F90A456-DFA2-4499-88BC-637DFBF79DFB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

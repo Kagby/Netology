@@ -2,19 +2,21 @@
 #include <string>
 
 // Структура для хранения информации о банковском счёте
-struct BankAccount {
+struct BankAccount 
+{
     int accountNumber;
     std::string ownerName;
     double balance;
 };
 
 // Изменение баланса счёта
-void changeBalance(BankAccount& account, double newBalance) {
+void changeBalance(BankAccount& account, double newBalance) 
+{
     account.balance = newBalance;
 }
 
-int main() {
-
+int main() 
+{
     // Экземпляр структуры BankAccount
     BankAccount account;
 

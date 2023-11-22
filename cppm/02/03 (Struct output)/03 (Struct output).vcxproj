@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f4b8a791-6929-49c7-99e0-e62cd83f01ae}</ProjectGuid>
-    <RootNamespace>My01Months</RootNamespace>
+    <ProjectGuid>{6f90a456-dfa2-4499-88bc-637dfbf79dfb}</ProjectGuid>
+    <RootNamespace>My03Structoutput</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>02 Задача 1. Месяцы</ProjectName>
+    <ProjectName>02 Задача 3. Вывод структуры</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="01 (Months).cpp" />
+    <ClCompile Include="03 (Struct output).cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
