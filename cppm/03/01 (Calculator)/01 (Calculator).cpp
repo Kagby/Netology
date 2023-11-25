@@ -17,7 +17,6 @@ public:
         }
         else
         {
-            std::cout << "Неверный ввод!" << std::endl;
             return false;
         }
     }
@@ -31,39 +30,38 @@ public:
         }
         else
         {
-            std::cout << "Неверный ввод!" << std::endl;
             return false;
         }
     }
 
     // Методы вычеслений
 
-    double add()
+    double add() const
     {
         return num1 + num2;
     }
 
-    double subtract_2_1()
+    double subtract_2_1() const
     {
         return num1 - num2;
     }
 
-    double subtract_1_2()
+    double subtract_1_2() const
     {
         return num2 - num1;
     }
 
-    double multiply()
+    double multiply() const
     {
         return num1 * num2;
     }
 
-    double divide_1_2()
+    double divide_1_2() const
     {
         return num1 / num2;
     }
 
-    double divide_2_1()
+    double divide_2_1() const
     {
         return num2 / num1;
     }
@@ -76,17 +74,43 @@ int main()
 
     Calculator calc;
 
-    do
+    bool check0 = true;
+
+    while (check0)
     {
         std::cout << "Введите num1: ";
         std::cin >> enter_num1;
-    } while (!calc.set_num1(enter_num1));
 
-    do
+        // если введён 0
+        if (!calc.set_num1(enter_num1))
+        {
+            check0 = true;
+            std::cout << "Неверный ввод!" << std::endl;
+        }
+        else
+        {
+            check0 = false;
+        }
+    } 
+
+    check0 = true;
+
+    while (check0)
     {
         std::cout << "Введите num2: ";
         std::cin >> enter_num2;
-    } while (!calc.set_num2(enter_num2));
+
+        // если введён 0
+        if (!calc.set_num2(enter_num2))
+        {
+            check0 = true;
+            std::cout << "Неверный ввод!" << std::endl;
+        }
+        else
+        {
+            check0 = false;
+        }
+    }
 
     std::cout << "num1 + num2 :" << calc.add() << std::endl;
     std::cout << "num1 - num2 :" << calc.subtract_2_1() << std::endl;

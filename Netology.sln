@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 Задача 1. Каль
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 Задача 2. Счётчик", "cppm\03\02 (Counter)\02 (Counter).vcxproj", "{F36D88FF-2B7F-4339-932D-A87BE283D879}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 Задача 1. Адреса", "cppm\04\01 (Addresses)\01 (Addresses).vcxproj", "{EC5169EA-0031-41F4-8AF6-26EFE6367891}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{F36D88FF-2B7F-4339-932D-A87BE283D879}.Release|x64.Build.0 = Release|x64
 		{F36D88FF-2B7F-4339-932D-A87BE283D879}.Release|x86.ActiveCfg = Release|Win32
 		{F36D88FF-2B7F-4339-932D-A87BE283D879}.Release|x86.Build.0 = Release|Win32
+		{EC5169EA-0031-41F4-8AF6-26EFE6367891}.Debug|x64.ActiveCfg = Debug|x64
+		{EC5169EA-0031-41F4-8AF6-26EFE6367891}.Debug|x64.Build.0 = Debug|x64
+		{EC5169EA-0031-41F4-8AF6-26EFE6367891}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC5169EA-0031-41F4-8AF6-26EFE6367891}.Debug|x86.Build.0 = Debug|Win32
+		{EC5169EA-0031-41F4-8AF6-26EFE6367891}.Release|x64.ActiveCfg = Release|x64
+		{EC5169EA-0031-41F4-8AF6-26EFE6367891}.Release|x64.Build.0 = Release|x64
+		{EC5169EA-0031-41F4-8AF6-26EFE6367891}.Release|x86.ActiveCfg = Release|Win32
+		{EC5169EA-0031-41F4-8AF6-26EFE6367891}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -38,9 +38,9 @@ int main()
     int initial_value = 1;
     std::string choice;
 
-    Counter* counter = nullptr;
+    Counter counter;
 
-    do 
+    while (true)
     {
         std::cout << "Вы хотите указать начальное значение счётчика? Введите yes или no: ";
         std::cin >> choice;
@@ -49,16 +49,14 @@ int main()
         {
             std::cout << "Введите начальное значение счётчика: ";
             std::cin >> initial_value;
-            counter = new Counter(initial_value);
+            counter = Counter(initial_value);
             break;
         }
         else if (choice == "no")
         {
-            counter = new Counter();
             break;
         }
-
-    } while (true);
+    } 
 
     std::cout << std::endl;
 
@@ -70,13 +68,13 @@ int main()
         switch (command) 
         {
             case '+':
-                counter->increment();
+                counter.increment();
                 break;
             case '-':
-                counter->decrement();
+                counter.decrement();
                 break;
             case '=':
-                std::cout << counter->get_value() << std::endl;
+                std::cout << counter.get_value() << std::endl;
                 break;
             case 'x':
                 std::cout << "До свидания!" << std::endl;
@@ -86,6 +84,5 @@ int main()
         }
     } while (command != 'x');
 
-    delete counter;
     return 0;
 }
