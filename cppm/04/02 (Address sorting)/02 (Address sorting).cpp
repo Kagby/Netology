@@ -22,7 +22,32 @@ public:
     {
         return city + ", " + street + ", " + std::to_string(house) + ", " + std::to_string(apartment);
     }
+
+    // Возвращает первую букву города
+    char get_char_number()
+    {
+        return this->city[0];
+    }
 };
+
+// Сортировка адресов по названию города
+void sortng(Address** addresses, int size)
+{
+    int size_min = size - 1;
+
+    for (int j = 0; j < size_min; j++)
+    {
+        for (int i = 0; i < size_min; i++)
+        {
+            if (addresses[i]->get_char_number() > addresses[i + 1]->get_char_number())
+            {
+                addresses[size] = addresses[i];
+                addresses[i] = addresses[i + 1];
+                addresses[i + 1] = addresses[size];
+            }
+        }
+    }
+}
 
 int main()
 {
@@ -39,8 +64,8 @@ int main()
     int num_addresses;
     input_file >> num_addresses;
 
-    // Создаём двумерный массив из класса
-    Address** addresses = new Address * [num_addresses];
+    // Создаём двумерный массив из класса + tmp для сортировки
+    Address** addresses = new Address * [num_addresses + 1];
 
     // Считывание адресов из файла
     for (int i = 0; i < num_addresses; ++i)
@@ -57,13 +82,17 @@ int main()
     // Запись количества адресов в файл
     output_file << num_addresses << std::endl;
 
-    // Запись адресов в обратном порядке в файл
-    for (int i = num_addresses - 1; i >= 0; --i)
+    // Сортировка
+    sortng(addresses, num_addresses);
+
+    // Запись адресов в файл
+    int size_min = num_addresses - 1;
+    for (int i = 0; i < num_addresses; ++i)
     {
         output_file << addresses[i]->get_output_address();
 
         // Проверка последней строки
-        if (!i == 0)
+        if (i < size_min)
         {
             output_file << std::endl;
         }
