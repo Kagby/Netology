@@ -24,7 +24,7 @@
     <ProjectGuid>{ec5169ea-0031-41f4-8af6-26efe6367891}</ProjectGuid>
     <RootNamespace>My01Addresses</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>04 Задача 1. Адреса</ProjectName>
+    <ProjectName>04 01. Адреса</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

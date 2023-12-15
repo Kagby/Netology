@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{65e8b9aa-45a6-466d-9f3e-65e9ff18a20f}</ProjectGuid>
-    <RootNamespace>My02Addresssorting</RootNamespace>
+    <ProjectGuid>{c069cc8a-4755-4580-bff4-cb73b31c45e2}</ProjectGuid>
+    <RootNamespace>My01FiguresNumberofsides</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>04 02 (Address sorting)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="02 (Address sorting).cpp" />
+    <ClCompile Include="01 Figures. Number of sides.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
