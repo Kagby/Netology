@@ -31,7 +31,6 @@ int main(int argc, char** argv)
 		std::cout << a << " ^ " << b << " = " << exponent(a, b) << std::endl;
 		break;
 
-
 	default:
 		std::cout << "x is undefined" << "\n";
 		break;

@@ -20,8 +20,16 @@ int multiplication(int a, int b)
 
 double division(double a, double b)
 {
-	double division = a / b;
-	return division;
+	if (b != 0)
+	{
+		double division = a / b;
+		return division;
+	}
+	else
+	{
+		std::cout << "На ноль не делим" << std::endl;
+		return 0;
+	}
 }
 
 double exponent(int a, int b)
