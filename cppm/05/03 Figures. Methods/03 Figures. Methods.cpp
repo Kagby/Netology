@@ -313,7 +313,7 @@ int main()
     Equilateral_triangle equilateral_triangle(30, 30, 30, 60, 60, 60);
     equilateral_triangle.print_info();
 
-    // четырёхи
+    // четырёхугольники
     Quadrangle quadrangle(10, 20, 30, 40, 50, 60, 70, 80);
     quadrangle.print_info();
 
