@@ -15,9 +15,12 @@ int main()
     std::cout << "Введите число: ";
     std::cin >> n;
 
-    std::cout << "Числа Фибоначчи: ";
-    for (int i = 0; i < n; ++i)
-        std::cout << fib(i) << " ";
+    std::cout << "Число Фибоначчи: " << fib(n) << std::endl;
+        
+
+    //std::cout << "Числа Фибоначчи: ";
+    //for (int i = 0; i < n; ++i)
+    //    std::cout << fib(i) << " ";
 
     std::cout << std::endl;
 
