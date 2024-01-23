@@ -17,7 +17,6 @@ int main()
 
     std::cout << "Число Фибоначчи: " << fib(n) << std::endl;
         
-
     //std::cout << "Числа Фибоначчи: ";
     //for (int i = 0; i < n; ++i)
     //    std::cout << fib(i) << " ";
