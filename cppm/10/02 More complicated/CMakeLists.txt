@@ -1,8 +1,8 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.20)
 
 project(my_second_cmake_project)
 
-set(SOURCE_EXE
+add_executable(my_second_cmake_program     
     "Class_Hierarchy.cpp"
     "Figure.cpp"
     "Triangle.cpp"
@@ -15,5 +15,3 @@ set(SOURCE_EXE
     "Parallelogram.cpp"
     "Rhombus.cpp"
 )
-
-add_executable(my_second_cmake_program ${SOURCE_EXE})
