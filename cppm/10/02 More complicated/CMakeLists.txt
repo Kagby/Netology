@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(my_second_cmake_project)
+
+set(SOURCE_EXE
+    "Class_Hierarchy.cpp"
+    "Figure.cpp"
+    "Triangle.cpp"
+    "Right_triangle.cpp"
+    "Isosceles_triangle.cpp"
+    "Equilateral_triangle.cpp"
+    "Quadrangle.cpp"
+    "Rectangle.cpp"
+    "Square.cpp"
+    "Parallelogram.cpp"
+    "Rhombus.cpp"
+)
+
+add_executable(my_second_cmake_program ${SOURCE_EXE})
